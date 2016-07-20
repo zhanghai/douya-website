@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+    text-decoration: none;
+}
+
+#fp-nav ul {
+
+    li a span {
+        background-color: #fff;
+        height: 6px;
+        margin: -3px 0 0 -3px;
+        width: 6px;
+    }
+
+    li:hover a span {
+        width: 9px;
+        height: 9px;
+        margin: -4.5px 0 0 -4.5px;
+    }
+}
+
+section, section div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-vertical {
+    flex-direction: column;
+}
+
+section * {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+section .flex-fill {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 12px 0;
+}
+
+div > h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child, p:first-child {
+    margin-top: 0;
+}
+
+div > h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, p:last-child {
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+.button {
+    display: inline-flex;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    transition: background ease 0.2s;
+    &:hover {
+        background: #fff;
+        i {
+            color: #4caf50;
+        }
+    }
+    i {
+        transition: color ease 0.2s;
+    }
+}
+
+.intro {
+
+    padding-right: 38px;
+
+    .image {
+        height: 100%;
+        background: url("../images/intro.png") no-repeat center;
+        background-size: contain;
+    }
+
+    .text {
+        padding: 0 2em;
+    }
+
+    .button-bar {
+        margin-top: 36px;
+        > * {
+            margin: 0 8px;
+        }
+    }
+
+    .douban-icon {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin-left: -1px;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 1.2em;
+        text-align: center;
+    }
+}
+
+.material-design, .quick-start {
+
+    .text {
+        padding: 2em 0;
+    }
+}
+
+.material-design {
+
+    .image {
+        width: 100%;
+        background: url("../images/material-design.png") no-repeat top;
+        background-size: cover;
+    }
+}
+
+.quick-start {
+
+    .video-container {
+        width: 100%;
+        height: 100%;
+
+        > video {
+            height: 100%;
+        }
+    }
+}

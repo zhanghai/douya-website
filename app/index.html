@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>豆芽</title>
+
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2F3BA2">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+
+    <link rel="stylesheet" href="//cdn.bootcss.com/fullPage.js/2.8.2/jquery.fullPage.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/material-design-icons/2.2.3/iconfont/material-icons.css">
+
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+
+<main id="fp-fullpage">
+    <section class="fp-section intro" data-anchor="intro">
+        <div class="flex-fill image"></div>
+        <div class="flex-vertical text">
+            <h1>豆芽</h1>
+            <p>Material Design 的第三方豆瓣应用</p>
+            <span class="button-bar">
+                <a title="下载豆芽" href="downloads/me.zhanghai.android.douya-latest.apk" class="button"><i class="material-icons">get_app</i></a>
+                <a title="扫描二维码下载豆芽" href="images/download-qrcode.png" target="_blank" class="button"><i class="material-icons">aspect_ratio</i></a>
+                <a title="在豆瓣上关注豆芽" href="https://www.douban.com/people/douban-douya/" target="_blank" class="button"><i class="douban-icon">豆</i></a>
+                <a title="在 GitHub 查看项目" href="https://github.com/DreaminginCodeZH/Douya" target="_blank" class="button"><i class="material-icons">code</i></a>
+            </span>
+        </div>
+    </section>
+    <section class="fp-section flex-vertical material-design" data-anchor="material-design">
+        <div class="flex-vertical text">
+            <h2>Material Design</h2>
+            <p>优雅与一致的界面设计语言</p>
+        </div>
+        <div class="flex-fill image"></div>
+    </section>
+    <section class="fp-section flex-vertical quick-start" data-anchor="quick-start">
+        <div class="flex-vertical text">
+            <h2>快速启动</h2>
+            <p>没有开屏广告，直接刷广播</p>
+        </div>
+        <div class="flex-fill video-container">
+            <!--<video data-autoplay controls src="videos/douya-start.mp4" onclick="this.paused ? this.play() : this.pause();"></video>-->
+            <!--<video data-autoplay controls src="videos/douban-start.mp4" onclick="this.paused ? this.play() : this.pause();"></video>-->
+        </div>
+    </section>
+    <section class="fp-section" data-anchor="b">
+        B
+    </section>
+    <section class="fp-section" data-anchor="a">
+        A
+    </section>
+    <section class="fp-section" data-anchor="n">
+        N
+    </section>
+</main>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/fullPage.js/2.8.2/jquery.fullPage.min.js"></script>
+
+<!-- build:js scripts/main.min.js -->
+<script src="scripts/main.js"></script>
+<!-- endbuild -->
+</body>
+</html>
