@@ -3,11 +3,11 @@
 
 # TEAM
 
-  <name> -- <role> -- <twitter>
+  Zhang Hai -- All -- https://github.com/DreaminginCodeZH
 
 # THANKS
 
-  <name>
+  douban.com
 
 # TECHNOLOGY COLOPHON
 

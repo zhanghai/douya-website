@@ -1,4 +1,6 @@
-node_modules
+.deploy/
+.idea/
 dist/
+node_modules/
 .tmp
 app.yaml
