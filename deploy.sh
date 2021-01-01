@@ -12,7 +12,7 @@ if [[ ! -d .deploy ]]; then
     cd .deploy
     git init
     git symbolic-ref HEAD refs/heads/gh-pages
-    git remote add origin git@github.com:DreaminginCodeZH/douya.zhanghai.me.git
+    git remote add origin git@github.com:zhanghai/douya.zhanghai.me.git
     cd ..
 fi
 

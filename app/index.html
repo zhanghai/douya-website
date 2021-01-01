@@ -42,38 +42,47 @@
 <body>
 
 <main id="fp-fullpage">
-    <section class="fp-section intro" data-anchor="intro">
+    <section class="fp-section intro flex-center-child" data-anchor="intro">
         <div class="flex-fill image"></div>
-        <div class="flex-vertical text">
+        <div class="flex-vertical flex-center-child text">
             <h1>豆芽</h1>
             <p>Material Design 的第三方豆瓣应用</p>
             <span class="button-bar">
                 <a title="下载豆芽" href="downloads/me.zhanghai.android.douya-latest.apk" class="button"><i class="material-icons">get_app</i></a>
                 <a title="扫描二维码下载豆芽" href="images/download-qrcode.png" target="_blank" class="button"><i class="material-icons">aspect_ratio</i></a>
                 <a title="在豆瓣上关注豆芽" href="https://www.douban.com/people/douban-douya/" target="_blank" class="button"><i class="douban-icon">豆</i></a>
-                <a title="在 GitHub 查看项目" href="https://github.com/DreaminginCodeZH/Douya" target="_blank" class="button"><i class="material-icons">code</i></a>
+                <a title="在 GitHub 上查看项目" href="https://github.com/zhanghai/Douya" target="_blank" class="button"><i class="material-icons">code</i></a>
             </span>
         </div>
     </section>
-    <section class="fp-section flex-vertical material-design" data-anchor="material-design">
-        <div class="flex-vertical text">
+    <section class="fp-section flex-vertical flex-center-child material-design" data-anchor="material-design">
+        <div class="flex-vertical flex-center-child text">
             <h2>Material Design</h2>
             <p>优雅与一致的界面设计语言</p>
         </div>
         <div class="flex-fill image"></div>
     </section>
-    <section class="fp-section flex-vertical quick-start" data-anchor="quick-start">
-        <div class="flex-vertical text">
+    <section class="fp-section flex-vertical flex-center-child quick-start" data-anchor="quick-start">
+        <div class="flex-vertical flex-center-child text">
             <h2>快速启动</h2>
             <p>没有开屏广告，直接刷广播</p>
         </div>
-        <div class="flex-fill video-container">
-            <!--<video data-autoplay controls src="videos/douya-start.mp4" onclick="this.paused ? this.play() : this.pause();"></video>-->
-            <!--<video data-autoplay controls src="videos/douban-start.mp4" onclick="this.paused ? this.play() : this.pause();"></video>-->
+        <div class="flex-fill height-100">
+            <div class="no-flex no-flex-center-child height-100">
+                <div class="no-flex height-100 nexus-5x">
+                    <!--<img src="images/nexus-5x.png" class="height-100">-->
+                    <!--<img src="images/nexus-5x-glare.png" class="position-absolute height-100">-->
+                </div>
+                <video data-autoplay controls src="videos/douya-start.mp4" onclick="this.paused ? this.play() : this.pause();" class="height-100"></video>
+                <video data-autoplay controls src="videos/douban-start.mp4" onclick="this.paused ? this.play() : this.pause();" class="height-100"></video>
+            </div>
         </div>
     </section>
     <section class="fp-section" data-anchor="b">
-        B
+        <div class="flex-vertical flex-center-child text">
+            <h2>多账户切换</h2>
+            <p>快速切换小号，同时支持网页</p>
+        </div>
     </section>
     <section class="fp-section" data-anchor="a">
         A
